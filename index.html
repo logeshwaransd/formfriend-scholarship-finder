@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        FormFriend Scholarship Finder
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- ================================
+     INTRO
+================================ -->
+
+<div id="intro">
+
+    <div class="intro-logo">
+        F
+    </div>
+
+    <div class="intro-name">
+        FormFriend Scholarship Finder
+    </div>
+
+    <div class="intro-line"></div>
+
+</div>
+
+
+
+<!-- ================================
+     WEBSITE
+================================ -->
+
+<main id="website">
+
+
+<!-- NAVBAR -->
+
+<nav>
+
+    <div class="brand">
+
+        <div class="brand-icon">
+            F
+        </div>
+
+        <span>
+            FormFriend Scholarship Finder
+        </span>
+
+    </div>
+
+
+    <div class="nav-pill">
+        🇮🇳 Made for India
+    </div>
+
+</nav>
+
+
+
+<!-- ================================
+     HERO
+================================ -->
+
+<section class="hero">
+
+
+    <div class="hero-left">
+
+
+        <div class="mini-label">
+            ✦ SCHOLARSHIP FINDER
+        </div>
+
+
+        <h1>
+
+            Find the scholarship
+
+            <span>
+                you deserve.
+            </span>
+
+        </h1>
+
+
+        <p class="hero-text">
+
+            Tell us what you need.
+            FormFriend helps you discover
+            government scholarships without
+            the confusion.
+
+        </p>
+
+
+
+        <!-- SEARCH -->
+
+        <div class="search-wrapper">
+
+            <div class="search-icon">
+                🔍
+            </div>
+
+
+            <input
+                id="searchInput"
+                type="text"
+                placeholder="What scholarship are you looking for?"
+                autocomplete="off"
+            >
+
+
+            <button id="searchButton">
+
+                <span>
+                    Find scholarships
+                </span>
+
+                <b>
+                    →
+                </b>
+
+            </button>
+
+        </div>
+
+
+
+        <!-- QUICK SEARCH -->
+
+        <div class="suggestions">
+
+            <span>
+                Try:
+            </span>
+
+
+            <button
+                data-query="I need a scholarship for my college education"
+            >
+                🎓 College scholarship
+            </button>
+
+
+            <button
+                data-query="I need a scholarship for engineering"
+            >
+                💻 Engineering
+            </button>
+
+
+            <button
+                data-query="I need a scholarship based on family income"
+            >
+                💰 Financial support
+            </button>
+
+
+            <button
+                data-query="I need a government scholarship"
+            >
+                🇮🇳 Government scholarship
+            </button>
+
+        </div>
+
+
+
+        <!-- LOADING -->
+
+        <div
+            id="loading"
+            class="loading hidden"
+        >
+
+            <div class="loader"></div>
+
+            <span>
+                Finding scholarship options...
+            </span>
+
+        </div>
+
+
+
+        <!-- ERROR -->
+
+        <div
+            id="errorBox"
+            class="error hidden"
+        ></div>
+
+
+    </div>
+
+
+
+    <!-- ================================
+         VISUAL
+    ================================= -->
+
+    <div class="hero-right">
+
+
+        <div class="orbit orbit-one"></div>
+
+        <div class="orbit orbit-two"></div>
+
+
+        <div class="main-card">
+
+
+            <div class="card-top">
+
+                <span>
+                    SCHOLARSHIP FINDER
+                </span>
+
+                <span>
+                    01
+                </span>
+
+            </div>
+
+
+            <div class="card-icon">
+                🎓
+            </div>
+
+
+            <h3>
+
+                Find scholarships,
+                <br>
+                without the headache.
+
+            </h3>
+
+
+            <div class="card-lines">
+
+                <div>
+                    <i></i>
+                    Central Government
+                </div>
+
+
+                <div>
+                    <i></i>
+                    State Government
+                </div>
+
+
+                <div>
+                    <i></i>
+                    College Students
+                </div>
+
+            </div>
+
+
+            <div class="card-bottom">
+
+                <span>
+                    Explore scholarships
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="floating-tag tag-one">
+            🎓 Education
+        </div>
+
+
+        <div class="floating-tag tag-two">
+            ✓ Simple
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ================================
+     HOW IT WORKS
+================================ -->
+
+<section class="how">
+
+    <div class="section-label">
+        HOW IT WORKS
+    </div>
+
+
+    <h2>
+
+        Three steps.
+
+        <span>
+            That's it.
+        </span>
+
+    </h2>
+
+
+    <div class="steps">
+
+
+        <div class="step">
+
+            <div class="number">
+                01
+            </div>
+
+            <h3>
+                Tell us
+            </h3>
+
+            <p>
+                Tell us about your education
+                and scholarship needs.
+            </p>
+
+        </div>
+
+
+
+        <div class="step">
+
+            <div class="number">
+                02
+            </div>
+
+            <h3>
+                Understand
+            </h3>
+
+            <p>
+                FormFriend understands
+                your situation.
+            </p>
+
+        </div>
+
+
+
+        <div class="step">
+
+            <div class="number">
+                03
+            </div>
+
+            <h3>
+                Discover
+            </h3>
+
+            <p>
+                Explore scholarships
+                that may match your profile.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================
+     RESULTS
+================================ -->
+
+<section
+    id="resultSection"
+    class="results hidden"
+>
+
+
+    <div class="result-heading">
+
+        <span class="section-label">
+            YOUR SEARCH
+        </span>
+
+
+        <h2>
+            Here's what we understood.
+        </h2>
+
+    </div>
+
+
+
+    <div class="result-grid">
+
+
+        <div class="result-main">
+
+            <div class="result-icon">
+                🧠
+            </div>
+
+            <span class="result-label">
+                WHAT WE UNDERSTOOD
+            </span>
+
+            <p id="understanding"></p>
+
+        </div>
+
+
+
+        <div class="category-card">
+
+            <span class="result-label">
+                CATEGORY
+            </span>
+
+            <div id="category">
+                —
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="terms-section">
+
+        <span class="result-label">
+            USEFUL SEARCH TERMS
+        </span>
+
+
+        <div id="searchTerms"></div>
+
+    </div>
+
+
+
+    <!-- QUESTIONS -->
+
+    <div
+        id="questionsCard"
+        class="questions-card hidden"
+    >
+
+
+        <div class="question-heading">
+
+
+            <div class="question-symbol">
+                ✦
+            </div>
+
+
+            <div>
+
+                <span class="result-label">
+                    BETTER MATCH
+                </span>
+
+                <h3>
+                    A few things we'd like to know.
+                </h3>
+
+            </div>
+
+
+        </div>
+
+
+        <div id="questions"></div>
+
+
+        <button
+            id="matchButton"
+            class="match-button"
+        >
+
+            Find my scholarships
+
+            <span>
+                →
+            </span>
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- MATCH LOADING -->
+
+    <div
+        id="matchStatus"
+        class="match-status hidden"
+    >
+
+        <div class="match-loader"></div>
+
+        <span>
+            Finding scholarships that match your answers...
+        </span>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-brand">
+        FormFriend Scholarship Finder
+    </div>
+
+    <span>
+        Making scholarships easier to understand.
+    </span>
+
+    <span>
+        🇮🇳
+    </span>
+
+</footer>
+
+
+</main>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
